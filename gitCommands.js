@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 const gitCommands = [
   "git init",
   "git add .",
-  'git commit -m "first commit"',
+  'git commit -m "pushed By NodeJS"',
   "git branch -M main",
   "git remote add origin https://github.com/parasbagri/Texting_With_Node.git",
   "git push -u origin main",
